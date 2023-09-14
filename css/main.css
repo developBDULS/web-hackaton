@@ -883,6 +883,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding-left: 30px;
     line-height: 1.82em !important;
+    font-weight: 500;
 }
 .unordered-list li:before {
     content: "";
