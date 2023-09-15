@@ -1490,7 +1490,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 997;
 }
 #header.header-scrolled {
-    background: rgb(77, 82, 161, 0.9);/*rgb(87, 69, 191, 0.9);*/
+    background: rgb(54, 157, 100, 0.9);/*rgb(87, 69, 191, 0.9);*/
     transition: all 0.5s;
 }
 @media (max-width: 673px) {
@@ -1794,7 +1794,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 0;
 }
 .banner-area {
-    background: url(../img/Banner3.png) center;
+    background: url(../img/Banner_Verde_5.png) center;
     background-size: cover;
 }
 .banner-area .overlay-bg {
