@@ -1803,6 +1803,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-content {
     text-align: center;
     z-index: 2;
+    margin-top:-15% !important;
 }
 .banner-content h1 {
     font-size: 72px;
@@ -2465,4 +2466,22 @@ h6 {
 ::-ms-input-placeholder {
     color: #777777;
     font-weight: 300;
+}
+
+@font-face{
+    font-family: 'GoodTimesHv-Regular';
+    src: url('../fonts/GoodTimesHv-Regular.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'GoodTimesHv-Regular', sans-serif;
+}
+
+@font-face{
+    font-family: 'GoodTimesRG';
+    src: url('../fonts/good times rg.otf') format('truetype');
+}
+
+h2{
+    font-family: 'GoodTimesRG', sans-serif;
 }
