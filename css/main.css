@@ -2485,3 +2485,28 @@ h1{
 h2{
     font-family: 'GoodTimesRG', sans-serif;
 }
+
+.image-scroll {
+    white-space: nowrap; /* Evita saltos de línea */
+    overflow-x: auto; /* Permite desplazamiento horizontal */
+    display: flex; /* Usa flexbox para las imágenes */
+    gap: 40px; /* Espacio entre las imágenes */
+}
+
+.image-scroll img {
+    height: 120px; /* Altura deseada */
+    width: 120px; /* Ancho deseado */
+}
+
+@media (max-width: 767px) {
+    .image-scroll {
+        white-space: normal;
+        overflow-x: hidden;
+        display: block;
+    }
+
+    .image-scroll img {
+        display: block;
+        margin: 10px auto; /* Agrega margen para separar las imágenes */
+    }
+}
